@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #987654;
+}
+
+a {
+  color: #00b7ff;
+}
+
+main {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+section.jumbo {
+  display: flex;
+}
+
+.left-jumbo img {
+  width: 180px;
+  border-radius: 20px;
+}
+.right-jumbo {
+  margin: 0 20px;
+}
