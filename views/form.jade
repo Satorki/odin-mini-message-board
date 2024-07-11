@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  main
+   form(action="/new", method="POST")
+    h2 Your Message:
+        input(type="text", name="message", value="")
+    h2 Your Name:
+        input(type="text", name="name", value="")    
+    section.add-completed-message
+      button(type="submit") ADD

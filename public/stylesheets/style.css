@@ -28,16 +28,16 @@ section.jumbo {
 .add-message {
   margin: 20px 0;
 }
-.add-message button {
+button {
   padding: 5px 15px;
   background-image: linear-gradient(to right, #d36fd3, #b4abab);
   border: none;
   border-radius: 20px;
 }
-.add-message button:hover {
+button:hover {
   background-image: linear-gradient(to left, #d36fd3, #b4abab);
 }
-.add-message button:active {
+button:active {
   box-shadow: inset 0 0 3px 1px black;
 }
 
