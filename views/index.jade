@@ -8,5 +8,13 @@ block content
       .right-jumbo
         h1 Odin Mini Message Board
         p Simple site for showing and adding messages
+    section.add-message
+      button
+        a(href='/new') ADD MESSAGE
     section.messages
       h2 Messages
+       ul
+      each message in messages
+        li()
+          div().messageText= message.text
+          div()= `by ${message.user} on ${message.added}`
