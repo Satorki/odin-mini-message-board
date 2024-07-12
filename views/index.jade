@@ -17,4 +17,4 @@ block content
       each message in messages
         li()
           div().messageText= message.text
-          div()= `by ${message.user} on ${message.added}`
+          div()= `author: ${message.user} date: ${message.added}`
