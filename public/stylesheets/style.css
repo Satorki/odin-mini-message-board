@@ -55,3 +55,11 @@ a {
 .messages li div.messageText {
   font-size: 1.4rem;
 }
+
+form input {
+  
+  margin: 20px;
+}
+form input[name="message"] {
+  width: 200px;
+}
