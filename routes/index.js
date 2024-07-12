@@ -29,7 +29,7 @@ router.post("/new", (req, res, next) => {
     added: new Date().toLocaleString(),
   });
 
-  res.redirect("/");
+  res.redirect("/?reload=true");
 });
 
 module.exports = router;
